@@ -24,3 +24,11 @@ resource "azurerm_storage_account" "kn11" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource "azurerm_storage_account" "kn12" {
+  name                     = "knstac12"
+  resource_group_name      = "kn1"
+  location                 = "East US"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}
